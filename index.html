@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="file"> -->
+    <!-- <img src="./contract_example.jpg" alt=""> -->
+    <div id="fabricCanvas" style="text-align: center; margin: 20px;">
+        <canvas id="docCanvas" style="border: 1px solid #919191;"></canvas>
+    </div>
+    <div id="signaturePad" style="text-align: center; margin: 20px;">
+        <canvas id="signaturePadCanvas" style="border: 1px solid #919191;"></canvas>
+    </div>
+
+    <div id="signaturePad" style="text-align: center; margin: 20px;">
+        <button id="btn_confirm">確定簽名</button>
+    </div>
+
+    
+
+    <!-- fabric.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/451/fabric.min.js" integrity="sha512-qeu8RcLnpzoRnEotT3r1CxB17JtHrBqlfSTOm4MQzb7efBdkcL03t343gyRmI6OTUW6iI+hShiysszISQ/IahA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- signature js -->
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+    <!-- custom js -->
+    <script src="./index.js"></script>
+</body>
+</html>
